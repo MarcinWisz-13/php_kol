@@ -1,3 +1,9 @@
+CREATE TABLE IF NOT EXISTS Osoby (
+    id INTEGER PRIMARY KEY,
+    imię TEXT,
+    nazwisko TEXT,
+    wiek INTEGER);
+
 //rysuj.php
 <?php
 
